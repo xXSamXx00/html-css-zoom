@@ -16,6 +16,7 @@ body {
     width: 12px;
     border-radius: 50%;
     display: inline-block;
+    cursor: pointer;
 }
 
 .relative {
@@ -101,6 +102,7 @@ header {
     border-radius: 6px;
     display: inline-block;
     padding: 6px 10px;
+    cursor: pointer;
 }
 
 .arrow_left {
@@ -119,6 +121,7 @@ header {
 
 .arrow_left > i, .arrow_right > i {
     font-size: 60px;
+    cursor: pointer;
 }
 
 .number {
@@ -126,3 +129,46 @@ header {
 }
 
 /* FOOTER RULES */
+footer {
+    background-color: #222326;
+    color: #DCDCDC;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0 6px 20px;
+}
+
+.icon {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.icon > i {
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+
+.arrow_up {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.arrow_up > i {
+    cursor: pointer;
+}
+
+.special > i {
+    color: #51C623;
+}
+
+.leave {
+    background-color: #47484A;
+    color: #F25650;
+    font-size: 11px;
+    padding: 20px 16px;
+    cursor: pointer;
+}
