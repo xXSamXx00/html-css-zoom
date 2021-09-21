@@ -18,6 +18,16 @@ body {
     display: inline-block;
 }
 
+.relative {
+    position: relative;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 90px;
+}
+
 /* HEADER RULES */
 header {
     display: flex;
@@ -49,7 +59,7 @@ header {
 }
 
 .censored {
-    width: 110px;
+    width: 120px;
     height: 16px;
     background-color: #A5A5A5;
     border: 3px solid white;
@@ -58,3 +68,61 @@ header {
 }
 
 /* MAIN RULES */
+.item {
+    margin: 0 5px;
+    flex-grow: 1;
+}
+
+.name {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    color: white;
+    background-color: rgba(0 0 0 / 70%);
+    padding: 4px 6px;
+}
+
+.speak {
+    border: 2px solid #F8FB92;
+}
+
+.speaker_view {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+}
+
+.speaker, .zoom {
+    background-color: #303030;
+    border-radius: 6px;
+    display: inline-block;
+    background-color: #303030;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 6px 10px;
+}
+
+.arrow_left {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: #7F7F7F;
+}
+
+.arrow_right {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    color: #39BBFC;
+}
+
+.arrow_left > i, .arrow_right > i {
+    font-size: 60px;
+}
+
+.number {
+    color: white;
+}
+
+/* FOOTER RULES */
